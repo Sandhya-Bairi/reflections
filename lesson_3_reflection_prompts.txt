@@ -1,1 +1,6 @@
+1.When would you want to use a remote repository rather than keeping all your work local?
 
+  I would like to use remote repository for keeping my finished projects as a reference 
+  that would be added to my resume.I can access those wherever I am, when my laptop is
+  not with me.Also if it is an ongoing project, my teammates can contribute to it. For others,
+  they can view the project wihtout any contribution.
