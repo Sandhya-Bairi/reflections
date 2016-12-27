@@ -11,3 +11,54 @@ consists of those files that are to  be committed and repository contains the fi
 committed.
 Staging area is an intermediate area of keeping the files that we want to commit.
 It gives flexibility to change the files that we want to commit before committing.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+
+After every logical change, we can add its related files to the staging area and then 
+make 1 commit to the repository.
+This way though changes may be made to the working directory but if they are not added
+to the staging area, they won't be committed.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Instead of linearly committing, if we want commits in multiple versions simultaneously, we can create 
+commits under separate labels called branches. 
+Branches help in dividing the commits that we make according to certain characteristics and later uses.
+Situations:
+Usually 1 branch for master will be always there as a main one. When project is shown publicly, branches help 
+in organizing our files etc. like separate branches for experimental work, unique features, fixing deep bugs,
+developmental progress etc.
+Branches help in switching our context whenever we are bored working with a single feature or when we want to 
+fix a bug in the middle of working towards a feature by having separate branches.
+
+5.How do the diagrams help you visualize the branch structure?
+
+Diagrams like trees actually help in visualising branch structures as it gives a clear idea of
+which is the parent of which as in; which commit was created before and later, which commits
+belong to a which branch, which are created simultaneously, which are reachable from any commit and which are not.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together results in combining two versions of code with different changes into single
+version. In the diagram the resultant of the merge will have two parents with arrows clearly mentioning the 
+previous commits in an order. Hence tree diagram representation is helpful.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging:
+Pros:
+When same piece of code is not modified, then there wouldnot be any conflicts.
+At that time, automatic merging helps.
+Cons:
+When same piece of code is modified then git can't tell which modification is efficient
+because it would require very sophisticated machine learning for it which has not been introduced yet.
+In many cases, it wouldn't understand the code and just resulting in bugs and the code that
+does not compile. It would result in merge conflicts.
+Manual merging:
+Pros:
+When merge conflicts take place, git shows a message about the conflict;
+manual merging helps to decide which code we want and get a working code.
+Cons:
+Since git shows conflict message for every conflict, sometimes it would be annoying for few things
+which we might think to be very obvious. But manual is better rather than getting some wrong merge of code
+that doesnot make any sense.
