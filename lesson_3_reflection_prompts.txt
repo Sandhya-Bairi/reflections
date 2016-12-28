@@ -4,3 +4,32 @@
   that would be added to my resume.I can access those wherever I am, when my laptop is
   not with me.Also if it is an ongoing project, my teammates can contribute to it. For others,
   they can view the project wihtout any contribution.
+
+2.Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+  Pulling changes manually helps in always having the working version of the code,
+  if there are some bugs in the code of the remote repository, I would not want that
+  wrong code to be in Git. I would prefer keeping the right version of the code rather
+  than the wrong one.
+
+3.Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+  All three are the ways to add new changes without affecting the existing one.
+  Forks are used to import repository from somebody else's github account to mine.
+  Clones are used to import a repository from github account to my local computer.
+  Branches are used in our local computer Git to have multiple versions of the code 
+  with different changes in the same repository. 
+
+  I use fork when I dont have permission to modify someone's file originally.
+  I use clone when I want to code on my local computer and check for bugs by compiling
+  and executing using various softwares present on my system.
+  I use branches when I am in a team project and teammates keep making new changes and commits
+  and having immediate access to previous commits.
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  If I have the last known state of the remote stored locally, even when I am not connected
+  to internet(github) I can work offline on my local computer and merge the changes if wanted, 
+  else need not be merged. 
