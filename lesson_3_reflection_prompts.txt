@@ -40,3 +40,4 @@ use one instead of another?
   But then in drop box it may not be easy to work on same part of code at a time by various people.
   Google docs is not actually preferred because changes keep saving automatically and mainly for codes
   we wouldn't be left with a working version due to bugs that cannot be found on google docs.
+  I wouldn't also know exact bugs easily since all changes will be saved immediately.
