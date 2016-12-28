@@ -33,3 +33,10 @@ use one instead of another?
   If I have the last known state of the remote stored locally, even when I am not connected
   to internet(github) I can work offline on my local computer and merge the changes if wanted, 
   else need not be merged. 
+
+5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+  Without using Git or GitHub, I would use a shared folder in drop box or google docs.
+  But then in drop box it may not be easy to work on same part of code at a time by various people.
+  Google docs is not actually preferred because changes keep saving automatically and mainly for codes
+  we wouldn't be left with a working version due to bugs that cannot be found on google docs.
